@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 50px;
+            left: 16px;
+        }
+        .yes{
+            position: absolute;
+            top: 200px;
+            left: 90px
+        }
+        .qwerty{
+            position: absolute;
+            top: 200px;
+            left: 90px
+        }
+        .left{
+            position: absolute;
+            top: 80px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .container .btn {
+            position: absolute;
+            top: 90%;
+            left: 300%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #25ff15;
+            color: #313131;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .container_two .btn {
+            position: absolute;
+            top: 60%;
+            left: 90%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #f1ffc5;
+            color: #313131;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .one{
+            left: 200vh;
+        }
+        .yy{
+            padding-left: 2vh;
+        }
+    </style>
+    <script src="bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/custom.css">
+
+</head>
+<body>
+<ul>
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="Gallery.html">GALLERY</a></li>
+    <li><a href="About.html">ABOUT US</a></li>
+    <li style="float:right"><a class="active" href="more.html">MORE</a></li>
+</ul>
+<ul>
+    <li><a href="home.html">NEAT</a></li>
+    <li style="float:right"><a class="disabled" href="more.html">WORK</a></li>
+    <li style="float:right"><a class="disabled" href="more.html">BLOG</a></li>
+    <li style="float:right"><a class="disabled" href="more.html">ABOUT</a></li>
+    <li style="float:right"><a class="disabled" href="more.html">CONTACT</a></li>
+    <li style="float:right"><a class="disabled" href="more.html">HOME</a></li>
+</ul>
+<div class="container">
+    <img src="resources/studio2.jpg" alt="Snow" style="width:100%;">
+    <div class="bottom-left"></div>
+    <div class="top-left">Not Every Project needs to be perfect</div>
+    <div class="top-left left">Get access to free w3 schools offline version and learn more about us</div>
+    <div class="top-left left"></div>
+    <div class="qwerty">
+        <div class="container_two">
+            <button class="btn">LEARN MORE</button>
+        </div></div>
+    <div class="top-left yes">
+        <div class="container">
+            <button class="btn one">VIEW DEMO</button>
+        </div>
+    </div>
+
+    <div class="top-right"></div>
+    <div class="bottom-right"></div>
+    <div class="centered"></div>
+</div>
+<h3 class="yy">About Our designers in our company</h3>
+<h6 class="yy">Getty Images, Inc. (stylized as gettyimages), is an American visual media company, with headquarters in Seattle, Washington, United States. It is a supplier of stock images, editorial photography, video and music for business and consumers with an archive of over 200 million assets. It targets three markets—creative professionals (advertising and graphic design), the media (print and online publishing), and corporate (in-house design, marketing and communication departments).
+
+    Getty has distribution offices around the world and capitalizes on the Internet for distribution. As Getty has acquired other older photo agencies and archives, it has digitized their collections, enabling online distribution. Getty Images operates a large commercial website that clients use to search and browse for images, purchase usage rights, and download images. Image prices vary according to resolution and type of rights. Cost-per-image is typically around US$500.
+    The company also offers custom photo services for corporate clients</h6>
+</body>
+</html>

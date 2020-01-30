@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .center{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+        }
+        .night{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            background-color: #cbbe24;
+            color: #fcff32;
+        }
+        .container .btn {
+            position: absolute;
+            top: 57%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #cbbe24;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            width: 30vh;
+        }
+
+        .container .btn:hover {
+            background-color: #ffd927;
+        }
+    </style>
+    <script src="bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/custom.css">
+
+</head>
+<body>
+<ul>
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="Gallery.html">GALLERY</a></li>
+    <li><a href="About.html">ABOUT US</a></li>
+    <li style="float:right"><a class="active" href="more.html">MORE</a></li>
+</ul>
+<ul>
+    <li><a href="home.html">Start Bootstrap</a></li>
+    <li style="float:right"><a class="disabled" href="#">SERVICES</a></li>
+    <li style="float:right"><a class="disabled" href="#">PORTFOLIO</a></li>
+    <li style="float:right"><a class="disabled" href="#">ABOUT</a></li>
+    <li style="float:right"><a class="disabled" href="#">TEAM</a></li>
+    <li style="float:right"><a class="disabled" href="#">CONTACT</a></li>
+</ul>
+<div class="container">
+    <img src="resources/studio.jpg" alt="Snow" style="width:100%;">
+    <div class="bottom-left"></div>
+    <div class="top-left"></div>
+    <div class="top-right"></div>
+    <div class="bottom-right"></div>
+    <div class="centered"><H3>Welcome To Our Studio!!</H3></div>
+    <div class="centered center"><H1>IT'S NICE TO MEET YOU</H1></div>
+    <div class="centered night"><div class="container">
+        <button class="btn">TELL ME MORE</button>
+    </div></div>
+</div>
+    <h3 class="heading">SERVICES</h3>
+<p class="heading">Lorem ipsum dolor sit amet, consectetur .</p>
+<div class="row">
+    <div class="col-md-2 w"></div>
+    <div class="col-md-3 x">
+        <img src="resources/image3.jpeg"height="250vh" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab atque, deleniti
+            dolorem doloremque explicabo impedit inventore iusto laborum laudantium minus
+            nam nesciunt nihil, odio provident similique voluptatum. Nesciunt, quae!</p>
+    </div>
+    <div class="col-md-3 y">
+        <img src="resources/image1.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta ea eligendi e
+            os ex fugiat ipsam itaque iure natus nesciunt n
+            umquam, quae, quam quasi quis recusandae sapiente similique, sunt veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta ea eligendi e
+            os ex fugiat ipsam itaque iure natus</p>
+    </div>
+    <div class="col-md-3 z">
+        <img src="resources/image2.jpeg"height="250vh" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque error facilis fuga itaque
+            labore laboriosam nostrum optio reprehenderit, ullam.
+            Blanditiis corporis eum ex excepturi iusto molestias non nulla optio sed.</p>
+    </div>
+    <div class="col-md-1 z"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
